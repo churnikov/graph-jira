@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "src"
+version = "0.0.1"
+description = ""
+authors = ["Nikita Churikov <nikita@chur.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+networkx = "^2.5"
+jupyter = "^1.0.0"
+pandas = "^1.1.4"
+plotly = "^4.12.0"
+pydantic = "^1.7.2"
+dash = "^1.17.0"
+xlrd = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.6.4"
+pytest = "^6.1.2"
+pre-commit = "^2.8.2"
+mypy = "^0.790"
+
+[tool.black]
+line-length = 100
+target_version = ["py38"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

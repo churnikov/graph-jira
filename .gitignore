@@ -1,0 +1,4 @@
+data/edges.csv
+data/nodes.csv
+.idea
+*.ipynb_checkpoints*
